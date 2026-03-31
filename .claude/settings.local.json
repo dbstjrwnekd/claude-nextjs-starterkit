@@ -14,21 +14,5 @@
       "Bash(afplay:*)"
     ]
   },
-  "hooks": {
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "afplay /System/Library/Sounds/Glass.aiff"
-          },
-          {
-            "type": "command",
-            "command": "osascript -e 'display notification \"Claude Code 작업이 완료되었습니다\" with title \"Claude Code\"'"
-          }
-        ]
-      }
-    ]
-  },
   "language": "korean"
 }
