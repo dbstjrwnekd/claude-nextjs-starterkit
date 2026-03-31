@@ -11,6 +11,7 @@ export default function Home() {
           width={100}
           height={20}
           priority
+          sizes="100px"
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
@@ -21,6 +22,8 @@ export default function Home() {
             <a
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Templates
             </a>{" "}
@@ -28,6 +31,8 @@ export default function Home() {
             <a
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Learning
             </a>{" "}
@@ -47,6 +52,7 @@ export default function Home() {
               alt="Vercel logomark"
               width={16}
               height={16}
+              sizes="16px"
             />
             Deploy Now
           </a>
